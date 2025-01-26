@@ -35,6 +35,15 @@ This demonstrates various sampling techniques applied to a highly imbalanced dat
 - The dataset is divided into clusters, and samples are selected from these clusters.
 - **Outcome**: The model performs perfectly for Class 0 but struggles to detect fraud due to a lack of samples for Class 1 in the test set.
 
+## Models Evaluated
+The following machine learning models are evaluated to assess their performance on different sampling techniques:
+- **Random Forest Classifier**
+- **Gradient Boosting Classifier**
+- **Logistic Regression**
+- **SVM (Support Vector Machine)**
+- **K-Nearest Neighbors (KNN)**
+
+
 ## Results
 
 - **Original Data**: The model performs well for Class 0 but fails to detect Class 1 due to the imbalanced data.
